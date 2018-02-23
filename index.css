@@ -1,0 +1,44 @@
+html,body {
+  min-width: 500px;
+  background: #eee;
+  height: 100%;
+}
+
+header, footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 80px;
+  background-color: #333;
+  color:#fff;
+}
+
+
+main {
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-content: space-between;
+
+  flex-wrap: wrap;
+
+  background: #eee;
+}
+
+.film-data {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  background: yellow;
+  margin: 10px;
+}
+
+
+footer {
+  height: 50px;
+  margin-top: 0;
+  background: #333;
+}
