@@ -1,0 +1,40 @@
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+.container{
+  width: 80%;
+  background-color: #fff;
+  margin: 20px;
+
+  padding: 20px;
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #777;
+}
+.nomination{
+  margin-left: 20px;
+}
+.nominee{
+  margin-left: 40px;
+  margin: 20px;
+}
+.winner {
+  font-weight: 700;
+  font-style: italic;
+  color: #945;
+}
+
+.logo{
+  width: 95%;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 15px;
+}
