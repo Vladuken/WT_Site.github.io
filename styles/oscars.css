@@ -1,6 +1,7 @@
 main{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -12,18 +13,24 @@ main{
   width: 80%;
   background-color: #fff;
   margin: 20px;
-
   padding: 20px;
   border: 1px solid #ffd700;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #777;
 }
+.container:hover {
+
+  transition-duration: 0.3s;
+  box-shadow: 0px 10px 30px #666;
+}
 .nomination{
   margin-left: 20px;
+  font-size:40px;
 }
 .nominee{
-  margin-left: 40px;
   margin: 20px;
+  margin-left: 40px;
+  font-size: 20px;
 }
 .winner {
   font-weight: 700;
