@@ -20,8 +20,10 @@ main{
   overflow: hidden;
 }
 .container:hover{
-  box-shadow: 0px 10px 30px #555;
-  transition-duration: 0.2s;
+  box-shadow: 0px 10px 60px #444;
+  transition-duration: 0.5s;
+  background: #333;
+  color: #eee;
 }
 
 /* .container::after{
@@ -36,6 +38,7 @@ main{
   width: 50%;
 
 }
+
 
 .article{
   float: left;
