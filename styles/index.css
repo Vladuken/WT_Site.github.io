@@ -14,14 +14,14 @@ header, footer{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
   height: 80px;
-  background-color: #333;
   color:#fff;
-
-
-  border-radius: 3px;
 }
+
+header{
+  background: linear-gradient(#333,#222);
+}
+
 
 
 ul {
@@ -42,7 +42,7 @@ ul a {
   align-items: center;
   justify-content: center;
   color: #eee;
-
+  text-align: center;
 }
 
 ul a:hover {
